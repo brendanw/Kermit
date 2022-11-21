@@ -34,6 +34,13 @@ commonMain {
 }
 ```
 
+### Enable cinterop commonization
+Add the following flag to your project-level `gradle.properties`
+
+```
+kotlin.mpp.enableCInteropCommonization=true
+```
+
 ### Log
 
 ```kotlin
